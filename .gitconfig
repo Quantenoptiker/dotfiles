@@ -1,0 +1,26 @@
+[include]
+    path = ~/.gitconfig_user
+[branch]
+    autosetupmerge = true
+    autosetuprebase = always
+[fetch]
+    prune = true
+[rerere]
+    enabled = true
+[pull]
+    rebase = true
+[push]
+    default = current
+[rebase]
+    autoSquash = true
+    autoStash = true
+[core]
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = ~/.gitignore
+    autocrlf = input
+[merge]
+    summary = true
+[mergetool]
+    keepBackup = true
+[diff]
+    indentHeuristic = on
